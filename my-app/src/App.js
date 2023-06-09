@@ -1,5 +1,10 @@
-import GalleryWrapper from "./Gallery/GalleryWrapper";
+import ComponentWrapper from "./ComponentWrapper/GalleryWrapper";
+import "./App.css";
 
 export default function App() {
-  return <GalleryWrapper></GalleryWrapper>;
+  return (
+    <div className="App-header">
+      <ComponentWrapper></ComponentWrapper>
+    </div>
+  );
 }
